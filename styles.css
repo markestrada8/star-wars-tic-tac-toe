@@ -1,0 +1,224 @@
+body {
+    font-family: 'Radio Canada', sans-serif;
+    margin: 0;
+}
+
+
+.chewie-companion {
+    position: fixed;
+    right: 50px;
+    top: 550px;
+}
+
+.chewie-companion img {
+    height: 200px;
+    z-index: 1;
+}
+
+.chewieTalk {
+    background-color: #ffffff;
+    height: 70px;
+    width: 190px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    border-radius: 4px;
+    text-align: center;
+
+}
+
+.death-star-image {
+    height: 300px;
+    position: absolute;
+    top: 200px;
+}
+
+.nav {
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    height: 100px;
+}
+
+.nav-links {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link {
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-links a:hover {
+    font-size: 1.05rem;
+    color: #ecdc62;
+}
+
+.title img {
+    height: 40px;
+
+}
+
+.characters-section,
+.game-section {
+    background-color: black;
+    background-image: url('images/cool-starfield.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    box-shadow: inset -640px -530px 500px -58px #000000;
+
+}
+
+/* .mask-element {
+    -webkit-mask-image: linear-gradient(to top, transparent 25%, black 100%);
+    mask-image: linear-gradient(to top, transparent 25%, black 100%);
+    position: relative;
+    box-shadow: inset -40px -30px 134px -58px #D8B650;
+} */
+
+.character-items {
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.character-item {
+    width: 50%;
+}
+
+.carousel-item {
+    margin: 100px 200px 400px;
+}
+
+.info-container {
+    border: 1px solid #ffffff;
+    text-align: center;
+    width: 291px;
+    transition: 1s;
+    /* opacity: 0; */
+}
+
+.carousel-item img {
+    height: 400px;
+    border-radius: 20px;
+}
+
+.active {
+    border-radius: 15px;
+    height: 400px;
+    opacity: 100%;
+}
+
+.continue-button {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+
+.continue-button button {
+    height: 70px;
+    width: 190px;
+    background-color: rgb(13, 75, 222);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-top: 50px;
+}
+
+.continue-button button:hover {
+    background-color: rgb(17, 64, 172);
+
+}
+
+
+/* Game Board */
+
+.choice-frame {
+    position: absolute;
+    left: 30px;
+    top: 200px;
+    color: #ffffff;
+}
+
+td {
+    border: 2px solid #fff;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 6em;
+    color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: 150px;
+}
+
+table tr:first-child td {
+    border-top: 0;
+}
+
+table tr:last-child td {
+    border-bottom: 0;
+}
+
+table tr td:first-child {
+    border-left: 0;
+}
+
+table tr td:last-child {
+    border-right: 0;
+}
+
+.endgame {
+    display: none;
+    width: 200px;
+    top: 300px;
+    background-color: rgba(29, 29, 21, 0.95);
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 2em;
+
+}
+
+.replay-button {
+    height: 70px;
+    width: 160px;
+    background-color: rgb(13, 75, 222);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: 2px;
+
+}
