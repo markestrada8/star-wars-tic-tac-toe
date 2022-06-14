@@ -1,7 +1,7 @@
 // import { playerChoice } from './choice.js'
 
-let choiceFrame = document.querySelector('.choice-frame');
-choiceFrame.appendChild(playerChoice);
+// let choiceFrame = document.querySelector('.choice-frame');
+// choiceFrame.appendChild(playerChoice);
 
 var origBoard;
 const huPlayer = 'O';
